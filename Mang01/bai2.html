@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let a = +prompt("chon 1 de doi tu foot sang meter \rchon 2 de doi tu meter sang foot ")
+    let giaTri = +prompt("Nhap gia tri")
+    function footToMeter(foot) {
+        return 0.305 * foot;
+    }
+    function metertoFoot(meter) {
+        return 3.279* meter
+    }
+
+    if (a == 1) {
+        alert(giaTri + "feet =" + footToMeter(giaTri) + "meters")
+    }
+    if (a == 2) {
+        alert(giaTri + "meter =" + metertoFoot(giaTri) + "feet")
+    }
+</script>
+</body>
+</html>
